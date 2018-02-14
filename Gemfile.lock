@@ -48,6 +48,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    cowsay (0.3.0)
     crass (1.0.3)
     erubi (1.7.0)
     execjs (2.7.0)
@@ -157,6 +158,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails
+  cowsay
   jbuilder
   jquery-rails
   pg (~> 0.18)
@@ -170,7 +172,7 @@ DEPENDENCIES
   uglifier
 
 RUBY VERSION
-   ruby 2.3.5p376
+   ruby 2.4.1p111
 
 BUNDLED WITH
-   1.15.4
+   1.16.1
