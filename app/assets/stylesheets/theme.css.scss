@@ -107,6 +107,13 @@ a, .anchor {
 
 button.accordion {
   background: lighten($b-primary, 20%);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
   &:hover {
     background: lighten($b-primary, 15%);
   }
