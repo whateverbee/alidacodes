@@ -16,29 +16,13 @@
 //= require_tree .
 
 $(document).ready(function() {
-  $('.accordion-button').click(function() {
-    var accordionContent = $(this).next('.accordion-content');
-    if ($(accordionContent).is(':visible')) {
-      $(this)
-        .find('span')
-        .text('+');
-      $(accordionContent).slideUp(100);
-    } else {
-      $(this)
-        .find('span')
-        .text('-');
-      $(accordionContent).slideDown(100);
-    }
-    return false;
-  });
+  var acc = document.getElementsByClassName('accordion');
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function() {
+      this.classList.toggle('active');
+      this.nextElementSibling.classList.toggle('show');
+    };
+  }
 });
-
-var acc = document.getElementsByClassName('accordion');
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle('active');
-    this.nextElementSibling.classList.toggle('show');
-  };
-}
