@@ -4,9 +4,12 @@ $b-ink: #46494c;
 $b-background: #dcdcdd;
 $b-disabled: #c5c3c6;
 
+body {
+  background: $b-background;
+}
 .jumbotron {
   background: $b-primary;
-  color: $b-background;
+  color: white;
   padding-bottom: 80px;
 
   .btn-primary {
@@ -29,7 +32,7 @@ $b-disabled: #c5c3c6;
 }
 
 mark {
-	background-image: linear-gradient(135deg, $b-ink, $b-secondary);
+	background-image: linear-gradient(135deg, $b-ink, $b-primary);
 	background-clip: text;
 	-webkit-background-clip: text;
 	box-decoration-break: clone;
@@ -40,7 +43,8 @@ mark {
 p {
 	width: 50vw;
 	line-height: 18pt;
-	margin: auto;
+  margin: auto;
+  font-weight: 400;
 }
 
 h1 {
