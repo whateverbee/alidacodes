@@ -104,3 +104,10 @@ a, .anchor {
 .section-end {
   padding: 50px;
 }
+
+button.accordion {
+  background: lighten($b-primary, 20%);
+  &:hover {
+    background: lighten($b-primary, 15%);
+  }
+}
