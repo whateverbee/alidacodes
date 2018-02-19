@@ -126,8 +126,20 @@ button.accordion {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 20px 18px;
   background-color: white;
   display: none;
   overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: $b-ink;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
 }
