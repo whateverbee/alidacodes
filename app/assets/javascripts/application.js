@@ -22,7 +22,9 @@ $(document).ready(function() {
   for (i = 0; i < acc.length; i++) {
     acc[i].onclick = function() {
       $(this).toggleClass('active');
-      $(this).closest(".panel")toggleClass('nope');
+      $(this)
+        .closest('.panel')
+        .toggleClass('nope');
     };
   }
 });
