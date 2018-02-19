@@ -21,7 +21,6 @@ $(window).load(function() {
 
 $(document).ready(function() {
   $('#nameSubmit').click(function() {
-    e.preventDefault();
     $(this)
       .closest('.yep')
       .addClass('.nope');
