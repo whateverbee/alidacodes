@@ -89,9 +89,15 @@ h3 {
 }
 
 h2 .glyph {
-  font-size: 32px;
+  font-size: 30px;
 }
 
-.anchor {
+a, .anchor {
   color: $b-ink;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
