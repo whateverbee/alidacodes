@@ -59,6 +59,10 @@ mark {
   h3 {
     font-size: 32px;
   }
+
+  h2 {
+    font-size: 40px;
+  }
 }
 
 p {
@@ -79,4 +83,8 @@ h3 {
   text-align: center;
   font-family: $josefin;
   font-size: 32px;
+}
+
+.glyph {
+  color: $b-ink;
 }
