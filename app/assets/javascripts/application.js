@@ -23,7 +23,7 @@ $(document).ready(function() {
     acc[i].onclick = function() {
       $(this).toggleClass('active');
       $(this)
-        .closest('.panel')
+        .find('.panel')
         .toggleClass('nope');
     };
   }
