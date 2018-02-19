@@ -24,6 +24,7 @@ body {
     color: lighten($b-primary, 50%);
     max-width: 75%;
     margin: 1em auto 2em;
+    font-weight: 700;
   }
 
   .navbar + & {
