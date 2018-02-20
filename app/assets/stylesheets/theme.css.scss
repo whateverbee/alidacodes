@@ -161,9 +161,14 @@ button.accordion {
 
 li {
   color: $b-primary;
+  list-style: none;
 }
 
 .right {
   float: right;
   width: 125px;
+}
+
+.skills-list {
+  width: 500px;
 }
