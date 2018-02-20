@@ -148,3 +148,9 @@ button.accordion {
 .face {
   max-width: 400px;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
