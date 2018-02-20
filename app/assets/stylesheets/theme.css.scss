@@ -114,6 +114,7 @@ button.accordion {
   border: none;
   outline: none;
   transition: 0.4s;
+  margin: 10px;
   &:hover {
     background: lighten($b-primary, 15%);
   }
